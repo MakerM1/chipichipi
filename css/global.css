@@ -1,1 +1,191 @@
-/*# sourceMappingURL=global.css.map */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(15, 15, 15);
+}
+body .puzzle-pieces {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(47, 47, 47);
+  border-radius: 50px 50px 0 0;
+  padding: 20px;
+  min-height: 150px;
+}
+body .puzzle-pieces .shape {
+  max-width: 120px;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  cursor: -webkit-grab;
+  cursor: grab;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 80px;
+  left: 150px;
+}
+body .puzzle-pieces .shape:nth-child(2) {
+  left: 300px;
+}
+body .puzzle-pieces .shape:nth-child(3) {
+  left: 450px;
+}
+body .puzzle-pieces .shape:nth-child(4) {
+  left: 600px;
+}
+body .puzzle-pieces .shape:nth-child(5) {
+  left: 750px;
+}
+body .puzzle-pieces .shape:nth-child(6) {
+  left: 900px;
+}
+body .puzzle-pieces .shape:nth-child(7) {
+  left: 1050px;
+}
+body .puzzle-pieces .shape:nth-child(8) {
+  left: 1200px;
+}
+body .puzzle-pieces .shape:nth-child(9) {
+  left: 1350px;
+}/*# sourceMappingURL=global.css.map */
